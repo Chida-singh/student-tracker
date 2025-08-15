@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+  <nav class="navbar">
+    <div class="nav-logo">Student Tracker</div>
+    <ul class="nav-links">
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="class.html">Class</a></li>
+      <li><a href="marks.html">Marks</a></li>
+      <li><a href="attendance.html" class="active">Attendance</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Mark Attendance</h1>
+    <div id="attendanceClassSelect"></div>
+    <form id="attendanceForm" style="display:none;">
+      <div id="attendanceList"></div>
+      <button type="submit">Submit Attendance</button>
+    </form>
+    <div id="attendanceMessage"></div>
+  </div>
+  <script src="scripts/attendance.js"></script>
+</body>
+</html>
